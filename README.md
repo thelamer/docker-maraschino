@@ -60,5 +60,3 @@ The webui is found at port 7000.
 
 + **29.08.16:** Rebase to alpine.
 + **09.11.15:** Initial Release.
-
-
