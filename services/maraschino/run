@@ -1,3 +1,0 @@
-#!/bin/bash
-/sbin/setuser abc python /app/maraschino/Maraschino.py --datadir /config
-
