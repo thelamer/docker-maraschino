@@ -14,7 +14,7 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
 Maraschino, a simple web interface to act as a nice overview/front page for my XBMC HTPC.
 
 ## Usage
-[![maraschino](https://pixabay.com/static/uploads/photo/2013/04/16/19/12/cherry-105141_960_720.png =250x)][maraurl]
+[![maraschino](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/maraschino.png)][maraurl]
 [maraurl]: http://www.maraschinoproject.com/
 
 ```
