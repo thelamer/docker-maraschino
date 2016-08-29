@@ -11,9 +11,11 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
 [![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-maraschino)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-maraschino/)
 [hub]: https://hub.docker.com/r/linuxserver/maraschino/
 
-maraschino, a simple web interface to act as a nice overview/front page for my XBMC HTPC.
+Maraschino, a simple web interface to act as a nice overview/front page for my XBMC HTPC.
 
 ## Usage
+[![maraschino](https://pixabay.com/static/uploads/photo/2013/04/16/19/12/cherry-105141_960_720.png)][maraurl]
+[maraurl]: http://www.maraschinoproject.com/
 
 ```
 docker create \
@@ -56,7 +58,7 @@ The webui is found at port 7000.
 
 ## Versions
 
-**29.08.16:** Rebase to alpine.
-**09.11.15:** Initial Release.
++ **29.08.16:** Rebase to alpine.
++ **09.11.15:** Initial Release.
 
 
