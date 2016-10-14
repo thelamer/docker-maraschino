@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # linuxserver/maraschino
-[![](https://images.microbadger.com/badges/image/linuxserver/maraschino.svg)](http://microbadger.com/images/linuxserver/maraschino "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/maraschino.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/maraschino.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-maraschino)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-maraschino/)
+[![](https://images.microbadger.com/badges/version/linuxserver/maraschino.svg)](https://microbadger.com/images/linuxserver/maraschino "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/maraschino.svg)](http://microbadger.com/images/linuxserver/maraschino "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/maraschino.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/maraschino.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-maraschino)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-maraschino/)
 [hub]: https://hub.docker.com/r/linuxserver/maraschino/
 
 Maraschino, a simple web interface to act as a nice overview/front page for my XBMC HTPC.
@@ -61,8 +61,17 @@ The webui is found at port 7000.
 
 * To monitor the logs of the container in realtime `docker logs -f maraschino`.
 
+* container version number 
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' maraschino`
+
+* image version number
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/maraschino`
+
 ## Versions
 
++ **14-10-16:** Add version layer information.
 + **10.09.16:** Add layer badge to README.
 + **29.08.16:** Rebase to alpine.
 + **09.11.15:** Initial Release.
