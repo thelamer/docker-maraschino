@@ -77,7 +77,7 @@ The webui is found at port 7000.
 
 ## Versions
 
-+ **14-10-16:** Add version layer information.
++ **14.10.16:** Add version layer information.
 + **10.09.16:** Add layer badge to README.
 + **29.08.16:** Rebase to alpine.
 + **09.11.15:** Initial Release.
