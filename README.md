@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: http://www.maraschinoproject.com/
+[hub]: https://hub.docker.com/r/linuxserver/maraschino/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # linuxserver/maraschino
 [![](https://images.microbadger.com/badges/version/linuxserver/maraschino.svg)](https://microbadger.com/images/linuxserver/maraschino "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/maraschino.svg)](http://microbadger.com/images/linuxserver/maraschino "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/maraschino.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/maraschino.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-maraschino)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-maraschino/)
-[hub]: https://hub.docker.com/r/linuxserver/maraschino/
 
 Maraschino, a simple web interface to act as a nice overview/front page for my XBMC HTPC.
 
-[![maraschino](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/maraschino.png)][maraurl]
-[maraurl]: http://www.maraschinoproject.com/
+[![maraschino](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/maraschino.png)][appurl]
 
 ## Usage
 
