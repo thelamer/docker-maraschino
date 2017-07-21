@@ -1,9 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-# install app
-[[ ! -d "/app/maraschino/.git" ]] && \
-	git clone https://github.com/mrkipling/maraschino.git /app/maraschino
-
-# permissions
-chown -R abc:abc \
-	/app
